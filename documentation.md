@@ -4,6 +4,8 @@ Aplikacia vypocita a zobrazi najkratsiu cestu medzi zadanymi bodmi a zobrazi slu
 - Najdenie najkratsej trasy medzi dvoma zvolenymi bodmi
 - Zobrazovanie sluzieb nachadzajucich sa pozdlz cesty
 - Filtrovanie zobrazenych sluzieb podla kategorii(ubytovanie, stravovanie, cerpacie stanice, kulturne pamiatky)
+- Segmenty cesty farebne oznaci podla maximalnej povolenej rychlosti
+- Vypocita idealny cas trvania cesty a jej dlzku
 
 Aplikacia vyzera nasledovne:
 
