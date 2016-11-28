@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	background-color: #c0c0c0
+}
+
+#content{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+#content>div{
+	flex-basis: 0;
+}
+
+#map-container{
+	flex-grow: 8;
+	position: relative;
+}
+
+#rightcolumn{
+	margin: 20px;
+	flex-grow: 2;
+}
+
+#map{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+}
+
+#travel-distance, #travel-duration{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+/*
+.btn-wrapper>button{
+	width: 100%;
+  margin-bottom: 4px;
+}
+*/
+
+.flexcheck{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flexcheck>*{
+	width: 49%;
+}

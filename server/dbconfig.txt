@@ -1,0 +1,3 @@
+user postgres
+database osm
+password 7566
