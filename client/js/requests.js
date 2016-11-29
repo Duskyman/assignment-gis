@@ -56,7 +56,7 @@ this.Requests = new (function(){
 				document.getElementById('travel-duration').textContent = hours + ":" + ((minutes < 10) ? '0' + minutes : minutes);
 			});
 		},errorHandler);
-	}bde99Zbi
+	}
 
 	this.findItemsRequest = ()=>{
 		if (markers.length > 0){
